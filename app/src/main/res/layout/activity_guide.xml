@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".GuideActivity">
+    <TableRow>
+        <TextView android:text="운영안내"
+            style="@style/title_style"
+            android:layout_span="2"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="평일"/>
+        <TextView android:text="10:00 ~ 21:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="주말"/>
+        <TextView android:text="09:00 ~ 22:00"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="휴일"/>
+        <TextView android:text="09:00 ~21:00"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="휴무일"/>
+        <TextView android:text="연주 무휴"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="오시는 길"
+            style="@style/title_style"
+            android:layout_span="2"/>
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico01"/>
+        <TextView android:text="09[주소] 부산광역시 "/>
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico02"/>
+        <TextView android:text="[주소] 부산광역시 "/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico03"/>
+        <TextView android:text="[주소] 부산광역시 "/>
+    </TableRow>
+
+
+
+
+</TableLayout>
